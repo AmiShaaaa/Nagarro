@@ -1,0 +1,22 @@
+/* Priority: inline > internal > external */
+/* Load time: inline > internal > external */
+
+div p{
+    color: orangered;
+}
+
+section p{
+    background-color: bisque;
+}
+
+article{
+    background-color: aqua;
+}
+section{
+    border: 2px dotted orchid;
+    background-color: bisque;
+    border-radius: 20%;
+}
+p{
+    text-transform: uppercase;
+}
