@@ -1,0 +1,38 @@
+/* element selector */
+
+/* a{
+    color: orangered;
+}
+p{
+    font-size: 25px;
+}
+*{
+    border: 2px solid black;
+} */
+
+/* id selectors */
+
+/* #nagarro{
+    text-decoration: line-through;
+}
+#amy{
+    color: aquamarine;
+} */
+
+/* class selectors */
+
+/* .evening{
+    text-decoration: overline;
+    color: rgb(80, 255, 109);
+    background-color: crimson;
+} */
+
+/* attribute selectors */
+
+a[href = "https://facebook.com"]{
+    font-size: 25px;
+}
+input[type="text"]{
+    background-color: blueviolet;
+    
+}
