@@ -1,0 +1,35 @@
+/* li{
+    color: brown;
+} */
+
+/* li:nth-of-type(4){
+    color: orangered;
+    background-color: aqua;
+} */
+
+/* li:nth-of-type(odd){
+    border: 2px solid aquamarine;
+} */
+
+/* li:nth-of-type(2n+7){    
+    color: orangered;
+} */
+
+/* an+b  -->  b is where effect will start(offset); a is the interval of repetition*/
+
+/* li:first-child{
+    background-color: brown;
+} */
+
+/* h2::first-letter{
+    font-size: 80px;
+}
+p::first-line{
+    font-size: 30px;
+}
+li:nth-of-type(2)::after{
+    content:"\2665";
+}
+li:nth-of-type(2)::before{
+    content:"\2665";
+} */
