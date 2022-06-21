@@ -1,0 +1,28 @@
+/* Advanced Selectors */
+
+section div li {
+    /*Descendant*/
+    color: brown;
+}
+/* section li{
+    border: 2px solid green;
+} */
+
+/* Child comb */
+
+/* section>div>ul>li{
+    background-color: bisque;
+} */
+
+/* div>ul>li{
+    border: 2px solid salmon;
+} */
+
+/* adjacent sibling - only the right side or below will be encountered*/
+
+/* article + div{
+    background-color: aquamarine;
+} */
+
+/* general sibling */
+

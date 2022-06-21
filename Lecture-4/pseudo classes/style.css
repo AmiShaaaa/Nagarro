@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 20px;
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+}
+/* hover */
+
+/* div:hover{
+    background-color: white;
+} */
+
+/* active state --> on click do the change */
+
+/* div:active{
+    background-color: rgb(239, 123, 123);
+} */
+
+/* visited -->once you encouter any link, go for the property change */
+
+a:visited{
+    color: green;
+}
+
+/* focus - Study form MDN */
