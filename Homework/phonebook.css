@@ -1,0 +1,54 @@
+h1 {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    background-size: 250px;
+    font-size: 50px;
+    color: rgba(0, 204, 255, 0.799);
+    text-shadow: 0 3px 0 #ccc;
+    margin-top: -15px;
+    /* position: -webkit-sticky; */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+
+}
+
+dl {
+    width: 600px;
+    position: relative;
+    top: 50px;
+    margin-left: 450px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+
+dl>div {
+    background: rgb(249, 244, 236);
+    padding: 2px 0 0 0;
+}
+
+dt {
+    background: #9fdcfa;
+    border-bottom: 1px solid #989EA4;
+    /* border-top: 1px solid #717D85; */
+    color: rgb(23, 22, 22);
+    font: bold 18px/21px Helvetica, Arial, sans-serif;
+    padding: 2px 0 0 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 58px;
+}
+
+dd {
+    font: bold 20px/45px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 0 12px;
+    top: 58px;
+    white-space: nowrap;
+}
+
+dd+dd {
+    border-top: 1px solid #CCC;
+}
