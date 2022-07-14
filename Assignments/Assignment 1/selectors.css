@@ -27,10 +27,6 @@ p {
 }
 
 /*Make all inputs have a 3px red border*/
-div ul li {
-    border: 3px solid red;
-}
-
 input {
     border: 3px solid red;
 }
@@ -62,7 +58,7 @@ div:nth-of-type(3) p {
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 div:nth-of-type(3) p:nth-of-type(2) {
-    border: 3px solid white;
+    border: 5px solid white;
 }
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
@@ -74,7 +70,13 @@ div:nth-of-type(3) em {
 /*-----------------------------BONUS CHALLENGES -----------------------------*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-input[type="checkbox"]:checked {
+/* input[type="checkbox"]:checked {
+    margin-left: 50px;
+} */
+/* input[checked]{
+    margin-left: 50px;
+} */
+:checked{
     margin-left: 50px;
 }
 
