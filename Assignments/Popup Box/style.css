@@ -1,0 +1,26 @@
+#box{
+    background-color: transparent;
+    height: 300 px;
+    width: 700 px;
+    visibility: hidden;
+}
+
+body{
+    background-image: url("image.avif");
+    background-repeat: no-repeat;
+    background-size: 1600px 745px;
+    /* background-color: rgba(59, 111, 255, 0.704); */
+}
+#box.show{
+    visibility: visible;
+}
+#x {
+    position: relative;
+    float: right;
+    background: rgb(245, 76, 76);
+	color: white;
+    top: -225px;
+    right: -10px;
+    border-color: transparent;
+    border-radius: 100%;
+}
