@@ -55,6 +55,9 @@ function handleTotal() {
             total += +num1 * +num2;
             displayButton(total);
             break;
+        case 'AC':
+            displayButton("");
+            break;
     }
 
     updateVariables();
