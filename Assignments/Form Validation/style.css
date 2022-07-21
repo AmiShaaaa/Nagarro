@@ -1,0 +1,10 @@
+body{
+    background-image: url("image.avif");
+    background-repeat: no-repeat;
+    background-size: 1600px 745px;
+    /* background-color: rgba(59, 111, 255, 0.704); */
+}
+
+.text-center{
+    padding-top: 80px;
+}
