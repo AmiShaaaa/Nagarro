@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.one,
+.two,
+.three {
+    text-align: center;
+    margin-top: 60px;
+}
+
+textarea {
+    background-image: linear-gradient(to bottom, rgba(77, 255, 0, 0), rgb(191, 219, 246));
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+body {
+    background-image: linear-gradient(to left, rgba(77, 255, 0, 0), rgb(255, 0, 208));
+}
